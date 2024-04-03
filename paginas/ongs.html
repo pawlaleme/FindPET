@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="pt-br" class="htmlpets">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-----<title>Responsive Profile Cards | CodingLab</title>----->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-details">
+          <i class='bx bxs-heart-circle icon' ></i>
+        </i>
+          <div class="logo_name">FindPET</div>
+          <i class='bx bx-menu' id="btn" ></i>
+      </div>
+      <ul class="nav-list">
+       
+        <li>
+          <a href="dashboard.php">
+            <i class='bx bx-grid-alt'></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+           <span class="tooltip">Dashboard</span>
+        </li>
+        <li>
+         <a href="perfil.php">
+           <i class='bx bx-user' ></i>
+           <span class="links_name">Meu Perfil</span>
+         </a>
+         <span class="tooltip">Meu Perfil</span>
+       </li>
+     
+     
+       <li>
+         <a href="ongs.html">
+           <i class='bx bx-folder' ></i>
+           <span class="links_name">ONG'S</span>
+         </a>
+         <span class="tooltip">ONG's</span>
+       </li>
+       <li>
+         <a href="#">
+           <i class='bx bx-cart-alt' ></i>
+           <span class="links_name">Itens para doação</span>
+         </a>
+         <span class="tooltip">Itens para doação</span>
+       </li>
+      
+       <li>
+        <a href="atualizar.php">
+          <i class='bx bx-cog' ></i>
+           <span class="links_name">Editar Perfil</span>
+         </a>
+         <span class="tooltip">Editar Perfil</span>
+       </li>
+       <li class="profile">
+           <div class="profile-details">
+             <!--<img src="profile.jpg" alt="profileImg">-->
+             <div class="name_job">
+               <div class="name">FindPET | UNISO </div>
+               <div class="job">Paula Leme dos Santos</div>
+             </div>
+             
+           </div>
+           
+           <form action="../Forms/processaTodosFormularios.php" method="POST">
+            <button name="acao" value="logout"><i class='bx bx-log-out' id="log_out"></i></button>
+          </form>
+
+       </li>
+       
+      </ul>
+    </div>
+   
+    <h1 class="tituloperfil">ONG'S PARA VOCÊ APOIAR</h1>
+
+    <div class="containerpets">
+        <div class="boxpets">
+            <div class="imageongs">
+              <img class="imageongs"  src="https://scontent.fsod8-1.fna.fbcdn.net/v/t1.6435-9/133570918_10158040584603585_1768255866247162964_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=o_I1lwAu9csAX_dvdCQ&_nc_ht=scontent.fsod8-1.fna&oh=00_AT9YSlj2IK_BYyBg-IqFedZQ2b3alDp0Ilm9drPa7x5_Hw&oe=62BBDA66">
+              </div>
+              <div class="name_pet">Clube dos Vira-latas</div>
+      
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+              </div>
+              <div class="containerDescricao">
+                <p> A boa notícia para quem ama os amigos de quatro patas é que as ONGs de animal são muito numerosas mesmo. Nesse sentido, temos também o Clube dos Vira-latas. Essa associação desenvolve programas para incentivar a adoção de pets.
+      
+                  Entre as suas realizações estão campanhas para castração, para intervenções cirúrgicas e para vacinar. Eles são da área do Grande ABC, região metropolitana de São Paulo.</p>
+              </div>
+              <div class="btns">
+              </div>
+            </div>
+        <div class="boxpets">
+            <div class="imageongs" >
+              <img class="imageongs" src="https://www.projetomiau.org.br/wp-content/uploads/2020/08/logotipo-2.png">
+              </div>
+              <div class="name_pet">Projeto Mi& Au</div>
+      
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+              </div>
+              <div class="containerDescricao">
+                <p>  Por fim, nossas dicas de ONG de animal inclui ainda o Projeto Mi & Au
+                  , de Garulhos, entidade que também mantém projetos para incentivar a adoção. Al
+                  ém disso, eles colaboram por meio de campanhas sobre esterilização e guarda responsável.
+  
+                  Portanto, se por um lado há muita coisa errada em relação aos direit
+                  os dos animais, por outro, tem também muita gente com a mão na massa. No entanto, a de
+                  manda é muito grande. Por essa razão, essas instituições estão sempre precisando de apoio.
+                  
+                  Aliás, nem sempre precisa ser em dinheiro. Você também pode doar 
+                  seu tempo ou apadrinhar um bichinho abrigado com comida, roupinhas e remédios. Quer 
+                  saber mais sobre como ajudar nossos amigos de quatro patas?</p>
+              </div>
+              <div class="btns">
+              
+              </div>
+            </div>
+      
+ 
+      <div class="boxpets">
+        <div class="imageongs">
+          <img class="imageongs" width="80%" height="80%" src="https://arcabrasil.org.br/wp-content/uploads/2016/08/logo.png" >
+          </div>
+          <div class="name_pet">Arca Brasil</div>
+        
+  
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+          </div>
+          <div class="containerDescricao">
+            <p> Na lista de ONGs de animal está a Arca Brasil, 
+              inaugurada em 1993. Essa entidade foi a primeira no país a planejar um 
+              programa municipal para conter a proliferação de cães e gatos nas ruas. Assim, 
+              com esse projeto piloto, ela serviu de modelo para várias outras associações e 
+              órgãos públicos. Até mesmo a capital paulista copiou a ideia.</p>
+          </div>
+          <div class="btns">
+  
+          </div>
+        </div>
+        <div class="boxpets">
+      <div class="imageongs" >
+        <img class="imageongs" src="https://www.aspaan.org.br/site2016/wp-content/themes/Aspaan/images/logo.png">
+        </div>
+        <div class="name_pet">Aspaan</div>
+
+
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+        </div>
+        <div class="containerDescricao">
+          <p> Os nossos amigos peludos têm ajuda ainda em Anápolis, 
+            Goiás, onde funciona a ASPAAN (Associação Protetora e Amiga dos Animais). 
+            Essa é uma das mais conhecidas ONGs de animal desse estado.
+  
+              Afinal, a instituição oferece palestras sobre posse responsável e 
+              divulga informações sobre os direitos dos animais.</p>
+        </div>
+        <div class="btns">
+        
+        </div>
+      </div>
+      
+            
+            <script>
+              let sidebar = document.querySelector(".sidebar");
+              let closeBtn = document.querySelector("#btn");
+              let searchBtn = document.querySelector(".bx-search");
+            
+              closeBtn.addEventListener("click", ()=>{
+                sidebar.classList.toggle("open");
+                menuBtnChange();//calling the function(optional)
+              });
+            
+              searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
+                sidebar.classList.toggle("open");
+                menuBtnChange(); //calling the function(optional)
+              });
+            
+              // following are the code to change sidebar button(optional)
+              function menuBtnChange() {
+               if(sidebar.classList.contains("open")){
+                 closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+               }else {
+                 closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
+               }
+              }
+              </script>
+    
+    
+    
+    
+      </body>
+</html>
